@@ -1,4 +1,7 @@
 {
   "showInlineTitle": true,
-  "foldHeading": true
+  "foldHeading": true,
+  "newFileLocation": "current",
+  "newFileFolderPath": "",
+  "attachmentFolderPath": "Attachments"
 }

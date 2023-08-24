@@ -105,6 +105,78 @@ Images and graphics in Markdown text documents are considered external content a
 ![[Pasted image 20230823214354.png]]
 ## Development
 
+在开发的过程中，多数情况下会使用英文作为主要语言，但为了增强项目的可理解性，在一些情况下应当或允许提供多语言支持。
 
+During development, English is usually used as the primary language. However, there may be cases where it is necessary or permissible to provide or allow multi-language support in order to enhance the understanding of the project.
+
+### Code & Script
+
+所有的代码与脚本内容仅允许使用英文。
+
+All code and script content must be **in English only**.
+
+```
+Int64 myInt64;
+class MyClass;
+```
+
+### Comments
+
+代码的注释应当使用两种主要语言其中之一编写，并应当尽快的翻译为对应的译文，示例如下：
+
+Code comments should be written in one of the two primary languages and should be promptly translated into the corresponding language, as demonstrated below:
+
+```
+# 用于示例的Int64变量
+# An Int64 used for demo
+Int64 myInt64 = 123;
+```
+
+### Art Assets
+
+在 Unreal Engine 中出现的所有美术资源，如贴图、模型、骨骼、动画等内容，其外部名称（文件名）与内部名称均应当使用英文。具体的命名规范请参考[虚幻引擎项目中推荐的资产命名规范](https://docs.unrealengine.com/5.2/zh-CN/recommended-asset-naming-conventions-in-unreal-engine-projects/)。
+
+In Unreal Engine, all art assets such as textures, models, skeletons, animations, and other content should have their external and internal names (file names) in English. For specific naming conventions, please refer to the [Recommended Asset Naming Conventions in Unreal Engine Projects](https://docs.unrealengine.com/5.2/en-US/recommended-asset-naming-conventions-in-unreal-engine-projects/) documentation within the Unreal Engine project.
+
+```
+BP_Car
+```
+
+> [!warning]
+> 特别的，禁止在任何情况下使用汉语拼音。
+> 
+> In particular, the use of Chinese Pinyin is prohibited in all circumstances.
+
+### File and Folder
+
+在开发中的所有文件与文件夹都应当使用且仅使用英文命名。
+
+During development, all files and folders should be named in **English only**.
+
+```
+Folder1
+Folder2
+ |- File1
+ |- File2
+```
+
+### Licience
+
+在开发中存在的版权声明、开源协议等应当使用且仅使用英文。
+
+Copyright notices, open source licences and similar legal documentation in development should be in **English only**.
+
+```
+# Example MIT Licience
+
+Copyright (C) <year> <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
 ## Git & Github Cooperation
+
